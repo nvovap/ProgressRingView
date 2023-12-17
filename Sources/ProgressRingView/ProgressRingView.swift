@@ -160,6 +160,7 @@ struct RingTip: Shape {
 }
 
 
+@available(iOS 14.0, *)
 struct ProgressBar_Library: LibraryContentProvider {
     @LibraryContentBuilder 
     var views: [LibraryItem] {
